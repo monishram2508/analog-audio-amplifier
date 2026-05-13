@@ -64,15 +64,7 @@ This circuit was built with hands-on understanding of analog electronics:
 - **Component Sensitivity**: The gain stage is particularly sensitive to transistor β (current gain) and biasing resistor values. Fine-tuning these parameters was critical to achieving stable gain and frequency response.
 
 - **Noise Management**: The bandpass filter design was optimized to reject DC offset and out-of-band noise while preserving signal fidelity. Low-impedance nodes were carefully managed to minimize noise pickup.
-
-## Project Status
-
-✅ **Complete**
-- Design finalized
-- Prototype built and tested
-- Evaluation completed
-- Working perfectly on real microphone input
-
+- 
 ## Files
 
 - **`schematics/`**: LTspice circuit designs
@@ -96,17 +88,8 @@ This circuit was built with hands-on understanding of analog electronics:
 - **Practical Filtering**: Implementing and tuning bandpass filters for audio applications.
 - **Power Delivery**: Designing output stages to drive real loads (8Ω speaker) while maintaining signal quality.
 
-## Future Improvements
-
-- PCB layout for reduced parasitic effects
-- Adjustable gain control (potentiometer in gain stage)
-- Frequency response measurements across full bandwidth
-- Testing with various microphone types and sensitivity levels
-
 ## License
 
 Open for educational and personal use.
 
 ---
-
-**Built with**: LTspice, soldering iron, and a lot of breadboard debugging.
